@@ -103,3 +103,10 @@ ul{
 
 }
 
+@media (min-width: 900px)
+{
+.indexcontainer
+{
+ flex-direction: row; 
+}
+}
