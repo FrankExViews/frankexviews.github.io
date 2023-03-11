@@ -84,7 +84,7 @@ padding: 1%;
 align-content: center;
 }
 
-iframe{width: 400px; height:400px;
+iframe{width: 800px; height:400px;
     
 }
 
@@ -149,6 +149,7 @@ font-size: large;
 background-color: hotpink;
 flex-grow:1
 flex-shrink:1;
+flex:2;
 }
 
 .videoflexboxcaption
@@ -160,6 +161,7 @@ text-align: justify;
 background-color: hotpink;
 flex-grow:1
 flex-shrink:1;
+flex:2;
 }
 
 .videoflexboxrow
@@ -172,6 +174,7 @@ background-color: hotpink;
 flex-grow:1;
 margin-left: 5%;
 margin-right: 5%;
+justify-content:center;
 
 }
 
@@ -185,7 +188,9 @@ flex-direction: column;
 flex-wrap: wrap;
 font-size: large;
 background-color: hotpink;
-
+justify-content:left;
 }
+
+iframe{width: 400px; height:400px;
 
 }
