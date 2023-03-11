@@ -76,27 +76,29 @@ img{
   margin-top: 2%;
 padding-top: 1vh;}
 
-.indexchild3{
-display:flex;
-flex-wrap: wrap;
-align-content: center;
-flex-direction: column;
-background-color:whitesmoke;
-color:black;
-font-size: large;
-font-family: Arial, Helvetica, sans-serif;
+.indexchild{
+  display:flexbox;
+  flex-wrap:wrap; 
+  align-content: center;
+  flex-direction: column;
+  background-color:whitesmoke;
+  color:black;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
 
 
 }
 
 p{
-color:black;
-font-size:large;
-font-family: Arial, Helvetica, sans-serif;
-background-color:whitesmoke;
-flex-wrap: wrap;
-
-}
+  color:black;
+  font-size:large;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:whitesmoke;
+  flex-wrap: wrap;
+ 
+  
+  }
 
 ul{
   background-color:whitesmoke;
