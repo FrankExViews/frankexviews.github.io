@@ -46,7 +46,7 @@ height: 5vh;
   background-color:deeppink;
 }
 
-table{ padding: 20px; margin:20%;}
+table{ padding: 10px; margin-top:5%; margin-left: 20%; margin-right: 20%; margin-bottom: 5%; width:70%; align-content: center;}
 
 td{border: ridge; border-color:hotpink; border-width: 8px; background-color:whitesmoke; text-align: center; border-radius:0.80em; padding: 5px; 
   color:black;
