@@ -156,6 +156,7 @@ flex-shrink:1;
 display:flex;
 flex-direction: row;
 font-size: large;
+text-align: justify;
 background-color: hotpink;
 flex-grow:1
 flex-shrink:1;
@@ -165,9 +166,12 @@ flex-shrink:1;
 {
 display:flex;
 flex-direction: row;
+align-content:flex-end;
 font-size: large;
 background-color: hotpink;
 flex-grow:1;
+margin-left: 5%;
+margin-right: 5%;
 
 }
 
