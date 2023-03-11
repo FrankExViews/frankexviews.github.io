@@ -46,12 +46,30 @@ height: 5vh;
   background-color:deeppink;
 }
 
+a:hover
+{
+  color: skyblue;
+  background-color:deeppink;
+}
+
+a:link {color: skyblue;}
+
+a:visited {color:skyblue;}
+
 table{ 
   padding: 10px; 
   margin-top:1%; 
   margin-right: 2%; 
   margin-bottom: 1%; 
   width:100%; 
+}
+
+
+
+.tablelink td
+{
+ background-color:hotpink; 
+ color: rgb(157, 135, 235);
 }
 
 td{border: ridge; 
@@ -63,7 +81,8 @@ td{border: ridge;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif; 
 padding: 1%;
-align-content: center;}
+align-content: center;
+}
 
 iframe{width: 400px; height:400px;
     
