@@ -174,11 +174,12 @@ display:flex;
 flex-direction: row;
 font-size: large;
 text-align: left;
-align-items: flex-start;
+align-items: flex-start
 background-color: hotpink;
 flex-grow:1
 flex-shrink:1;
 flex:2;
+margin:50%;
 }
 
 .videoflexboxrow
@@ -212,3 +213,18 @@ justify-content:left;
 iframe{width: 420px; height:420px;
 
 }
+
+td{border: ridge; 
+  border-color:hotpink; 
+  border-width: 6px; 
+  background-color:whitesmoke; 
+  text-align: justify; 
+  border-radius:0.80em; padding: 5px; 
+  color:black;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif; 
+padding: 0.5%;
+align-content: left;
+}
+
+  }
