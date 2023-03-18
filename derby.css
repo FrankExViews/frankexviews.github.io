@@ -22,6 +22,20 @@ h1 {border-bottom:thin solid; opacity: 1;
   margin-right: 5%;
 }
 
+.indexchild{
+  display:flexbox;
+  flex-wrap:wrap; 
+  align-content: center;
+  flex-direction: column;
+  background-color:whitesmoke;
+  border-radius: 25px;
+  color:black;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding: 1%;
+}
+
 .navbar{color:red; font-size:50vh;
 height: 5vh;
 }
@@ -113,27 +127,15 @@ img{
   display:flex;
   align-content: center;
   align-self: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
   margin-top: 2%;
   padding-top: 1vh;
+  max-width:96%;
+  max-height:96%;
 }
 
-.indexchild{
-  display:flexbox;
-  flex-wrap:wrap; 
-  align-content: center;
-  flex-direction: column;
-  background-color:whitesmoke;
-  border-radius: 25px;
-  color:black;
-  font-size: large;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  padding: 1%;
 
-
-}
 
 p{
  
