@@ -38,6 +38,8 @@ h1 {border-bottom:thin solid; opacity: 1;
 
 .navbar{color:red; font-size:50vh;
 height: 5vh;
+margin-left:5%;
+margin-right:5%;
 }
 
 .navbar ul{
