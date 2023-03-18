@@ -7,7 +7,6 @@ body {
 
 h1 {border-bottom:thin solid; opacity: 1;
   background-color: hotpink;
- 
 }
 
 .indexcontainer{
@@ -39,7 +38,7 @@ height: 5vh;
     font-size: 2.5vh;
 }
 
-.navbar a:link {color: rgb(168, 3, 3);}
+.navbar a:link {color: skyblue}
 
 .navbar a:hover {
   color: skyblue;
@@ -67,13 +66,13 @@ table{
 
 .tablelink a:link {
 
-  color: rgb(0, 153, 255);
+  color: rgb(0, 38, 255);
 
 }
 
 .tablelink a:visited {
 
-  color: rgb(0, 153, 255);
+  color: rgb(0, 38, 255);
 
 }
 
@@ -102,7 +101,6 @@ iframe{width: 800px; height:400px;
 }
 
 img{
-  display:flex;
   max-width: 90%;
   min-width: 100%;
   max-height: 100%;
@@ -114,10 +112,12 @@ img{
 .banner{
   display:flex;
   align-content: center;
+  align-self: center;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 2%;
-padding-top: 1vh;}
+  padding-top: 1vh;
+}
 
 .indexchild{
   display:flexbox;
@@ -136,8 +136,7 @@ padding-top: 1vh;}
 }
 
 p{
-  display:flex;
-  flex-wrap:wrap; 
+ 
   color:black;
   text-align:left;
   font-size:large;
@@ -173,6 +172,8 @@ font-size: large;
 text-align: center;
 background-color: hotpink;
 margin:10%;
+justify-content:center; 
+align-content:center;
 
 }
 
@@ -187,7 +188,7 @@ margin-left: 5%;
 margin-right: 5%;
 gap: 10px;
 align-content:center;
-justify-content: center;
+justify-content:center;
 align-items:center;
 }
 
