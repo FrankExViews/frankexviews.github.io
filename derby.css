@@ -163,21 +163,16 @@ ul{
 {
 font-size: large;
 background-color: hotpink;
-align-items:center;
-justify-content: center;
-margin:10%;
+margin-left:50px;
 }
 
 .videoflexboxcaption
 {
-display:flex;
-flex-wrap:wrap; 
 font-size: large;
 text-align: center;
 background-color: hotpink;
-margin:10%;
-justify-content:right; 
-align-content:right;
+margin-right:50px;
+
 }
 
 .videoflexboxrow
@@ -190,11 +185,11 @@ flex-grow:1;
 margin-left: 5%;
 margin-right: 5%;
 gap: 10px;
-align-content:center;
-justify-content:center;
-align-items:center;
+align-content:auto;
+align-items:auto;
 border: 1px;
 border-color: black;
+justify-content: space-evenly;
 }
 
 @media (max-width:1200px) 
