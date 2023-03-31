@@ -112,7 +112,7 @@ align-self: center;
 width:100% auto;
 }
 
-iframe{width: 800px; height:400px;
+iframe{width: 900px; height:400px;
     
 }
 
@@ -148,7 +148,7 @@ p{
   background-color:whitesmoke;
   border-radius: 10px;
   padding:0.7% auto;
-  
+  max-width:800px ;
   }
 
 ul{
@@ -163,7 +163,7 @@ ul{
 {
 font-size: large;
 background-color: hotpink;
-margin-left:50px;
+max-width:fit-content;
 }
 
 .videoflexboxcaption
@@ -171,8 +171,7 @@ margin-left:50px;
 font-size: large;
 text-align: center;
 background-color: hotpink;
-margin-right:50px;
-
+margin: 10 auto;
 }
 
 .videoflexboxrow
@@ -184,12 +183,11 @@ background-color: hotpink;
 flex-grow:1;
 margin-left: 5%;
 margin-right: 5%;
-gap: 10px;
-align-content:auto;
-align-items:auto;
-border: 1px;
+gap: 20px;
+align-items:stretch;
+justify-content:left;
+border: 10px;
 border-color: black;
-justify-content: space-evenly;
 }
 
 @media (max-width:1200px) 
