@@ -67,9 +67,9 @@ a:hover
   background-color:deeppink;
 }
 
-a:link {color: skyblue;}
+a:link {rgb(5, 5, 106);}
 
-a:visited {color:skyblue;}
+a:visited {rgb(5, 5, 106);}
 
 table{ 
   padding: 10px; 
@@ -82,13 +82,13 @@ table{
 
 .tablelink a:link {
 
-  color: rgb(0, 38, 255);
+  color: rgb(5, 5, 106);
 
 }
 
 .tablelink a:visited {
 
-  color: rgb(0, 38, 255);
+  color: rgb(5, 5, 106);
 
 }
 
