@@ -30,13 +30,6 @@ blurb:'due to the extreme number of penguins, we could not land at Paulette isla
 },
 
 {
-path:'gallery/elephantisland01.jpg',
-place:'Elephant Island, Antarctica',
-ident:'elephantisland01',
-blurb:'',
-},
-
-{
 path:'gallery/elephantisland02.jpg',
 place:'Elephant Island, Antarctica',
 ident:'elephantisland02',
